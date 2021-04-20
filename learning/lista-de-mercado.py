@@ -2,9 +2,8 @@ item = []
 mercado = []
 
 for i in range(3):
-    item.append(input("Digite o nome do item: "))
-    item.append(int(input("Digite a quantidade: ")))
-    item.append(float(input("Digite o valor: ")))
-    mercado.append(item[:]) #  Usamos [:] para alterarmos os valores deste "item", mantendo os valores do "item" original
-    item.clear()
-print(mercado) 
+    nome = input("Digite o nome do item: ")
+    quantidade = int(input("Digite a quantidade: "))
+    valor = float(input("Digite o valor: "))
+    mercado.append([nome, quantidade, valor])
+print(mercado)
