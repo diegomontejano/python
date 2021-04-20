@@ -1,4 +1,3 @@
-item = []
 mercado = []
 
 for i in range(3):
