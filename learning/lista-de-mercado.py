@@ -5,4 +5,4 @@ for i in range(3):
     quantidade = int(input("Digite a quantidade: "))
     valor = float(input("Digite o valor: "))
     mercado.append([nome, quantidade, valor])
-print(mercado)
+print(mercado) 
